@@ -28,7 +28,7 @@ public class LoginPage extends BaseTest{
 		ele.click();
 		driver.executeScript("mobile: performEditorAction", ImmutableMap.of("action", "search"));
 		driver.findElement(By.id("android:id/button1")).click();
-	System.out.println("hi");
+	   System.out.println("hiii");
 
 		
 
